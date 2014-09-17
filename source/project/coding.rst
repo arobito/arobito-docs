@@ -22,7 +22,7 @@ Development Environments and Systems
 
 We're not limited to a special operating system. Of course, we're recommending a free and open source OS (like Debian or SuSE Linux).
 
-The same goes for IDEs. There is no rule that says one must use this or that IDE. For Python development, we're recommending `PyCharm by JetBrains <http://www.jetbrains.com/pycharm/>`_, which is available als Community Edition for free.
+The same goes for IDEs. There is no rule that says one must use this or that IDE. For Python development, we're recommending `PyCharm by JetBrains <http://www.jetbrains.com/pycharm/>`_, which is available as Community Edition for free.
 
 
 Programming Languages
