@@ -98,3 +98,11 @@ It could be helpful to add a maintainer:
 
 
 TODO: Define how docstrings shall look like, how parameters are defined and how return types are marked.
+
+
+Documentation
+-------------
+
+The project documentation is made with Sphinx using reStructuredText-Files. Additional papers are made with a to-be-created LaTeX class.
+
+The documentation root path in the project folder is ``/doc``.
