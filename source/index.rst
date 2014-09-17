@@ -19,8 +19,10 @@
 
 .. toctree::
    :hidden:
+   :glob:
    
-   license
+   project/*
+   *
 
 
 Project Arobito
