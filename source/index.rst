@@ -1,22 +1,12 @@
-.. Arobito documentation master file, created by
-   sphinx-quickstart on Wed Sep 17 18:32:01 2014.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+Project Arobito
+===============
 
-Welcome to Arobito's documentation!
-===================================
+Welcome to the Project Arobito Documentation. This is your primary source of information for everything about the Arobito Project.
 
-Contents:
+- Project Website: `github.com/arobito <https://github.com/arobito>`_
+- Documentation: tdb
+
 
 .. toctree::
-   :maxdepth: 2
-
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   :maxdepth: 1
 
