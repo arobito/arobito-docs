@@ -6,4 +6,4 @@ python:
 install: ./prepare-build.sh
 
 # command to run tests (docs)
-script: sphinx-build -nW -b html -d build/doctrees source build/html
+script: sphinx-build -n -b html -d build/doctrees source build/html
