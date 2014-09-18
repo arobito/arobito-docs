@@ -76,7 +76,14 @@ Python Coding
 
 Python files are encoded as UTF-8. We prefer Unix-style line endings.
 
-After the license header, the imports take place. Below the inputs and before the first line of code, the author of the file/module must be set:
+At the very beginning of each file, there is the shebang line (when the file contains 'main' code) and the encoding:
+
+.. code:: python
+   
+   #!/usr/bin/env python3
+   # -*- coding: utf-8 -*-
+
+Then the license header follows. After the license header, the imports take place. Below the inputs and before the first line of code, the author of the file/module must be set:
 
 .. code:: python
 
@@ -97,7 +104,7 @@ It could be helpful to add a maintainer:
    __maintainer__ = 'Max Mustermann'
 
 
-TODO: Define how docstrings shall look like, how parameters are defined and how return types are marked.
+.. todo:: Define how docstrings shall look like, how parameters are defined and how return types are marked.
 
 
 Documentation
