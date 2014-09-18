@@ -40,7 +40,7 @@ Welcome to the Project Arobito Documentation. This is your primary source of inf
 
 
 Documentation Table of Contents
-===============================
+-------------------------------
 
 .. toctree::
    :glob:
@@ -53,11 +53,11 @@ Documentation Table of Contents
 
 
 FAQ
-===
+---
 
 
 So, what is Arobito?
---------------------
+````````````````````
 
 Arobito is a little project created by some computer scientists who left university years ago. They try to build some kind of a robot from scratch.
 
@@ -67,7 +67,7 @@ It's all an experiment. Nothing to lead to a productive usage. Just for fun.
 
 
 Sounds good, can I join?
-------------------------
+````````````````````````
 
 Yes, of course. This is an open source project. The easy way: Fork the source and build your own stuff on it. We're welcoming pull requests.
 
@@ -75,18 +75,18 @@ If you want to join our developer circle please don't hesitate to send us a mess
 
 
 Where can I download stuff?
----------------------------
+```````````````````````````
 
 This is not something you can install on your PC and simply run it. Not yet. So grab the source and go on.
 
 
 Where are the building and running instructions?
-------------------------------------------------
+````````````````````````````````````````````````
 
 We're still working on very basic code and very basic documentation. Please be patient.
 
 
 What languages are you using?
------------------------------
+`````````````````````````````
 
 The primary project language is Python 3.4 (see :doc:`Coding for Arobito <project/coding>` for details). But there's also a lot of HTML, CSS, JavaScript, Shell Scripts. A nice zoo.
