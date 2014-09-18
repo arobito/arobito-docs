@@ -14,15 +14,11 @@
 
 .. |rtfdstatus| raw:: html 
    
-   <a title="RTFD Online Documentation" href="https://readthedocs.org/projects/arobito/?badge=latest">
-       <img src="https://readthedocs.org/projects/arobito/badge/?version=latest" alt="RTFD Online Documentation" />
-   </a>
+   <a title="RTFD Online Documentation" href="https://readthedocs.org/projects/arobito/?badge=latest"><img src="https://readthedocs.org/projects/arobito/badge/?version=latest" alt="RTFD Online Documentation" /></a>
 
 .. |travisdocstatus| raw:: html
    
-   <a title="Documentation Test Build" href="https://travis-ci.org/arobito/arobito">
-      <img src="https://travis-ci.org/arobito/arobito.svg?branch=master" alt="Documentation Test Status" />
-   </a>
+   <a title="Documentation Test Build" href="https://travis-ci.org/arobito/arobito"><img src="https://travis-ci.org/arobito/arobito.svg?branch=master" alt="Documentation Test Status" /></a>
 
 
 
