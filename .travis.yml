@@ -3,7 +3,7 @@ python:
   - "3.4"
 
 # command to install dependencies (docs)
-install: "pip install -q -r requirements.txt"
+install: ./prepare-build.sh
 
 # command to run tests (docs)
 script: sphinx-build -nW -b html -d build/doctrees source build/html
