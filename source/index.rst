@@ -15,14 +15,10 @@
 .. |rtfdstatus| image:: https://readthedocs.org/projects/arobito/badge/?version=latest
    :target: https://readthedocs.org/projects/arobito/?badge=latest
    :alt: Documentation Status
-   
 
-.. toctree::
-   :hidden:
-   :glob:
-   
-   project/*
-   *
+.. |travisdocstatus| image:: https://travis-ci.org/arobito/arobito.svg
+   :target: https://travis-ci.org/arobito/arobito
+   :alt: Travis Documentation Test
 
 
 Project Arobito
@@ -37,8 +33,20 @@ Welcome to the Project Arobito Documentation. This is your primary source of inf
 
 - Project Website: `github.com/arobito <https://github.com/arobito>`_
 - Travis CI: to be created
-- Documentation: `arobito.rtfd.org <http://arobito.rtfd.org/>`_ |rtfdstatus|
+- Documentation: `arobito.rtfd.org <http://arobito.rtfd.org/>`_ |rtfdstatus| |travisdocstatus|
 - Twitter Account: `@arobito_project <https://twitter.com/arobito_project>`_
+
+
+Documentation Table of Contents
+===============================
+
+.. toctree::
+   :glob:
+   :numbered:
+   
+   project/coding
+   project/equipment
+   license
 
 
 FAQ
