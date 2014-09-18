@@ -44,9 +44,9 @@ Documentation Table of Contents
 
 .. toctree::
    :glob:
-   :numbered:
    
    project/coding
+   api/modules
    project/equipment
    license
    project/connect
