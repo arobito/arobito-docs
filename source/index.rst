@@ -12,13 +12,18 @@
    See the License for the specific language governing permissions and
    limitations under the License.
 
-.. |rtfdstatus| image:: https://readthedocs.org/projects/arobito/badge/?version=latest
-   :target: https://readthedocs.org/projects/arobito/?badge=latest
-   :alt: Documentation Status
+.. |rtfdstatus| raw:: html 
+   
+   <a title="RTFD Online Documentation" href="https://readthedocs.org/projects/arobito/?badge=latest">
+       <img src="https://readthedocs.org/projects/arobito/badge/?version=latest" alt="RTFD Online Documentation" />
+   </a>
 
-.. |travisdocstatus| image:: https://travis-ci.org/arobito/arobito.svg
-   :target: https://travis-ci.org/arobito/arobito
-   :alt: Travis Documentation Test
+.. |travisdocstatus| raw:: html
+   
+   <a title="Documentation Test Build" href="https://travis-ci.org/arobito/arobito">
+      <img src="https://travis-ci.org/arobito/arobito.svg?branch=master" alt="Documentation Test Status" />
+   </a>
+
 
 
 Project Arobito
