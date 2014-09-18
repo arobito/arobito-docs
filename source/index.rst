@@ -48,6 +48,7 @@ Documentation Table of Contents
    project/coding
    project/equipment
    license
+   project/connect
 
 
 FAQ
