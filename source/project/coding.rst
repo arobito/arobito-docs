@@ -30,9 +30,9 @@ Programming Languages
 
 For the Raspberry Pi backend driven by Arch Linux we prefer Python 3.4. It is the primary project language.
 
-For the web frontend we're using XHTML5, JavaScript and CSS3. The backend is again driven by Python,
+For the web frontend we're using XHTML5, JavaScript and CSS3. The backend is again driven by Python, powered by the famous `CherryPy web framework <http://www.cherrypy.org/>`_.
 
-The Arduino Code is written in C. We're programming the Atmel micro controller directly over the ICSP headers to save the space for the boot loader.
+The Arduino Code is written in C. We're programming the Atmel micro controller directly over the ICSP pinout to save the space for the boot loader.
 
 
 Coding Conventions
