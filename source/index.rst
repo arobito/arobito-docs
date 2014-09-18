@@ -18,7 +18,7 @@
 
 .. |travisdocstatus| raw:: html
    
-   <a title="Documentation Test Build" href="https://travis-ci.org/arobito/arobito"><img src="https://travis-ci.org/arobito/arobito.svg?branch=master" alt="Documentation Test Status" /></a>
+   <a title="Documentation Test Build" href="https://travis-ci.org/arobito/arobito-docs"><img src="https://travis-ci.org/arobito/arobito-docs.svg?branch=master" alt="Documentation Test Status" /></a>
 
 
 
