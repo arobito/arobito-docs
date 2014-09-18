@@ -32,7 +32,7 @@ Project Arobito
 Welcome to the Project Arobito Documentation. This is your primary source of information for everything about the Arobito Project.
 
 - Project Website: `github.com/arobito <https://github.com/arobito>`_
-- Travis CI: to be created
+- Travis CI: `travis-ci.org/arobito <https://travis-ci.org/arobito>`_
 - Documentation: `arobito.rtfd.org <http://arobito.rtfd.org/>`_ |rtfdstatus| |travisdocstatus|
 - Twitter Account: `@arobito_project <https://twitter.com/arobito_project>`_
 
