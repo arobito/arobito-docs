@@ -12,6 +12,7 @@
    See the License for the specific language governing permissions and
    limitations under the License.
 
+
 .. |rtfdstatus| raw:: html 
    
    <a title="RTFD Online Documentation" href="https://readthedocs.org/projects/arobito-docs/?badge=latest"><img src="https://readthedocs.org/projects/arobito-docs/badge/?version=latest" alt="RTFD Online Documentation" /></a>
@@ -30,7 +31,8 @@ Project Arobito
    :align: right
 
 
-Welcome to the Project Arobito Documentation. This is your primary source of information for everything about the Arobito Project.
+Welcome to the Project Arobito Documentation. This is your primary source of information for everything about the
+Arobito Project.
 
 - Project Website: `github.com/arobito <https://github.com/arobito>`_
 - Travis CI Code: `travis-ci.org/arobito/arobito <https://travis-ci.org/arobito/arobito>`_ (Currently not in use)
@@ -59,7 +61,8 @@ FAQ
 So, what is Arobito?
 ````````````````````
 
-Arobito is a little project created by some computer scientists who left university years ago. They try to build some kind of a robot from scratch.
+Arobito is a little project created by some computer scientists who left university years ago. They try to build some
+kind of a robot from scratch.
 
 We're trying to learn about controlling hardware and software, detecting obstacles and moving around.
 
@@ -69,9 +72,11 @@ It's all an experiment. Nothing to lead to a productive usage. Just for fun.
 Sounds good, can I join?
 ````````````````````````
 
-Yes, of course. This is an open source project. The easy way: Fork the source and build your own stuff on it. We're welcoming pull requests.
+Yes, of course. This is an open source project. The easy way: Fork the source and build your own stuff on it. We're
+welcoming pull requests.
 
-If you want to join our developer circle please don't hesitate to send us a message via github.com.
+If you want to join our developer circle please don't hesitate to send us a message via github.com. For new users, we
+created a :doc:`quick guide to the project <project/welcomenewuser>`.
 
 
 Where can I download stuff?
@@ -89,4 +94,5 @@ We're still working on very basic code and very basic documentation. Please be p
 What languages are you using?
 `````````````````````````````
 
-The primary project language is Python 3.4 (see :doc:`Coding for Arobito <project/coding>` for details). But there's also a lot of HTML, CSS, JavaScript, Shell Scripts. A nice zoo.
+The primary project language is Python 3.4 (see :doc:`Coding for Arobito <project/coding>` for details). But there's
+also a lot of HTML, CSS, JavaScript, Shell Scripts. A nice zoo.

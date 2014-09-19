@@ -11,7 +11,7 @@
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.
-   
+
 
 Coding for Arobito
 ==================
@@ -20,9 +20,12 @@ Coding for Arobito
 Development Environments and Systems
 ------------------------------------
 
-We're not limited to a special operating system. Of course, we're recommending a free and open source OS (like Debian or SuSE Linux).
+We're not limited to a special operating system. Of course, we're recommending a free and open source OS (like Debian or
+SuSE Linux).
 
-The same goes for IDEs. There is no rule that says one must use this or that IDE. For Python development, we're recommending `PyCharm by JetBrains <http://www.jetbrains.com/pycharm/>`_, which is available as Community Edition for free.
+The same goes for IDEs. There is no rule that says one must use this or that IDE. For Python development, we're
+recommending `PyCharm by JetBrains <http://www.jetbrains.com/pycharm/>`_, which is available as Community Edition for
+free.
 
 
 Programming Languages
@@ -30,21 +33,25 @@ Programming Languages
 
 For the Raspberry Pi backend driven by Arch Linux we prefer Python 3.4. It is the primary project language.
 
-For the web frontend we're using XHTML5, JavaScript and CSS3. The backend is again driven by Python, powered by the famous `CherryPy web framework <http://www.cherrypy.org/>`_.
+For the web frontend we're using XHTML5, JavaScript and CSS3. The backend is again driven by Python, powered by the
+famous `CherryPy web framework <http://www.cherrypy.org/>`_.
 
-The Arduino Code is written in C. We're programming the Atmel micro controller directly over the ICSP pinout to save the space for the boot loader.
+The Arduino Code is written in C. We're programming the Atmel micro controller directly over the ICSP pinout to save the
+space for the boot loader.
 
 
 Coding Conventions
 ------------------
 
-There is not yet a document that exactly describes how to code. The PyCharm IDE knows a lot about coding conventions and code formatting, so we take the hints there for real.
+There is not yet a document that exactly describes how to code. The PyCharm IDE knows a lot about coding conventions and
+code formatting, so we take the hints there for real.
 
 
 License Headers
 ---------------
 
-One thing is a must: Every source code file needs a header, formatted as a comment. It has to be the first thing in every file (except a shebang line). The block tells the viewer about the license of the code.
+One thing is a must: Every source code file needs a header, formatted as a comment. It has to be the first thing in
+every file (except a shebang line). The block tells the viewer about the license of the code.
 
 .. code:: text
 
@@ -83,7 +90,8 @@ At the very beginning of each file, there is the shebang line (when the file con
    #!/usr/bin/env python3
    # -*- coding: utf-8 -*-
 
-Then the license header follows. To make sure that the header is not parsed when creating the documentation, it must look like that:
+Then the license header follows. To make sure that the header is not parsed when creating the documentation, it must
+look like that:
 
 .. code:: python
 
@@ -101,7 +109,8 @@ Then the license header follows. To make sure that the header is not parsed when
    # See the License for the specific language governing permissions and
    # limitations under the License.
 
-After the license header, the imports take place. Below the inputs and before the first line of code, the author of the file/module must be set:
+After the license header, the imports take place. Below the inputs and before the first line of code, the author of the
+file/module must be set:
 
 .. code:: python
 
@@ -128,6 +137,7 @@ It could be helpful to add a maintainer:
 Documentation
 -------------
 
-The project documentation is made with Sphinx using reStructuredText-Files. Additional papers are made with a to-be-created LaTeX class.
+The project documentation is made with Sphinx using reStructuredText-Files. Additional papers are made with a
+to-be-created LaTeX class.
 
 The documentation root path in the project folder is ``/doc``.

@@ -77,7 +77,7 @@ language = 'en'
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
-exclude_patterns = [ 'setup.py' ]
+exclude_patterns = ['setup.py']
 
 # The reST default role (used for this markup: `text`) to use for all
 # documents.
@@ -343,3 +343,6 @@ intersphinx_mapping = {'python': ('http://docs.python.org/3.4', None)}
 
 # Show constructor details
 autoclass_content = 'both'
+
+# Show to-do items
+todo_include_todos = True

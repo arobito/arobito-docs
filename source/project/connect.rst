@@ -22,8 +22,10 @@ Development Contact
 
 - Development Main Page: `github.com/arobito <https://github.com/arobito>`_
 - Issue Tracker: `github.com/arobito/arobito/issues <https://github.com/arobito/arobito/issues>`_
-- Issue Tracker for Documentation: `github.com/arobito/arobito-docs/issues <https://github.com/arobito/arobito-docs/issues>`_
-- Repository Access: ``git@github.com:arobito/arobito.git`` (Code) and ``git@github.com:arobito/arobito-docs.git`` (Documentation)
+- Issue Tracker for Documentation:
+  `github.com/arobito/arobito-docs/issues <https://github.com/arobito/arobito-docs/issues>`_
+- Repository Access: ``git@github.com:arobito/arobito.git`` (Code) and
+  ``git@github.com:arobito/arobito-docs.git`` (Documentation)
 
 
 Social Networks
@@ -37,3 +39,12 @@ Other
 -----
 
 - E-Mail: Put ``arobito`` in front of the "At"-sign and ``freenet`` after it. The top level domain is ``.de``.
+
+
+Additional Resources
+--------------------
+
+.. toctree::
+   :glob:
+
+   welcomenewuser
