@@ -124,8 +124,8 @@ that helps you to identify the key.
 After you clicked the "Add key" button, you'll receive an e-mail that confirms the action.
 
 
-5. Configuring your SSH client
-``````````````````````````````
+5. Configure your SSH client
+````````````````````````````
 
 You can easily configure your SSH client to automatically use your key when you connect with GitHub. Go to your
 ``$HOME/.ssh`` (``%USERPROFILE%\.ssh`` under Windows) directory and create a file simply named ``config`` (if it does not
