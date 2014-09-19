@@ -41,11 +41,12 @@ Arobito Project.
 - Twitter Account: `@arobito_project <https://twitter.com/arobito_project>`_
 
 
-Documentation Table of Contents
--------------------------------
+Table of Contents
+-----------------
 
 .. toctree::
    :glob:
+   :maxdepth: 2
    
    project/coding
    api/modules
