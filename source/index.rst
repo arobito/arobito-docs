@@ -40,6 +40,7 @@ Table of Contents
    
    project/coding
    api/modules
+   test/modules
    project/equipment
    license
    project/connect
