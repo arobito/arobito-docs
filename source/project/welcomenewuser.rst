@@ -202,7 +202,7 @@ be done globally for all repositories (ABCD1234 is your key ID)...
 
 Refer to the `Pro Git e-book <http://git-scm.com/book/en/Git-Basics-Tagging>`_ for more information on tag signing.
 
-.. note:: It does not male sense to sign every commit. Basically, it would be enough to sign tags for releases. But
+.. note:: It does not make sense to sign every commit. Basically, it would be enough to sign tags for releases. But
           currently, we have not established any rules on that.
 
 
