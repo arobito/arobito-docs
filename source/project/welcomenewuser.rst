@@ -176,7 +176,7 @@ For the documentation, use
 
 .. code:: bash
 
-   git@github.com:arobito/arobito-docs.git
+   git clone git@github.com:arobito/arobito-docs.git
 
 So, that's it!
 
