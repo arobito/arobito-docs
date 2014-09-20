@@ -181,6 +181,31 @@ For the documentation, use
 So, that's it!
 
 
+8. Setup signing key (optional)
+```````````````````````````````
+
+If you do not know what we are talking about here, simply skip this step.
+
+If you are familiar with the ideas of commit and tag signing via GPG, you may want to setup your GPG key. This can
+be done globally for all repositories (ABCD1234 is your key ID)...
+
+.. code:: bash
+
+   git config --global user.signingkey ABCD1234
+
+... or local to a specific clone:
+
+.. code:: bash
+
+   cd myclone
+   git config user.signingkey ABCD1234
+
+Refer to the `Pro Git e-book <http://git-scm.com/book/en/Git-Basics-Tagging>`_ for more information on tag signing.
+
+.. note:: It does not male sense to sign every commit. Basically, it would be enough to sign tags for releases. But
+          currently, we have not established any rules on that.
+
+
 Work with the code
 ------------------
 
@@ -231,5 +256,5 @@ Now you can work with the new code base.
 More stuff to read
 ------------------
 
-To get familiar with Git, we recommend taking a look at the great `Pro Git eBook <http://git-scm.com/book/>`_, which is
+To get familiar with Git, we recommend taking a look at the great `Pro Git e-book <http://git-scm.com/book/>`_, which is
 available for free in several formats and as web page.
