@@ -13,16 +13,6 @@
    limitations under the License.
 
 
-.. |rtfdstatus| raw:: html 
-   
-   <a title="RTFD Online Documentation" href="https://readthedocs.org/projects/arobito-docs/?badge=latest"><img src="https://readthedocs.org/projects/arobito-docs/badge/?version=latest" alt="RTFD Online Documentation" /></a>
-
-.. |travisdocstatus| raw:: html
-   
-   <a title="Documentation Test Build" href="https://travis-ci.org/arobito/arobito-docs"><img src="https://travis-ci.org/arobito/arobito-docs.svg?branch=master" alt="Documentation Test Status" /></a>
-
-
-
 Project Arobito
 ===============
 
@@ -37,7 +27,7 @@ Arobito Project.
 - Project Website: `github.com/arobito <https://github.com/arobito>`_
 - Travis CI Code: `travis-ci.org/arobito/arobito <https://travis-ci.org/arobito/arobito>`_ (Currently not in use)
 - Travis CI Docs: `travis-ci.org/arobito/arobito-docs <https://travis-ci.org/arobito/arobito-docs>`_
-- Documentation: `arobito-docs.rtfd.org <http://arobito-docs.rtfd.org/>`_ |rtfdstatus| |travisdocstatus|
+- Documentation: `arobito-docs.rtfd.org <http://arobito-docs.rtfd.org/>`_
 - Twitter Account: `@arobito_project <https://twitter.com/arobito_project>`_
 
 
