@@ -143,7 +143,26 @@ So, each time, you connect to GitHub, SSH automatically uses your key.
           key.
 
 
-6. Clone the repositories
+6. Setup basic Git configuration
+````````````````````````````````
+
+There are a few global settings that should be applied to your Git installation. Skip this step when you already did
+that, but you can't destroy anything if you do it twice.
+
+.. code:: bash
+
+   git config --global user.name "Your Real Name"
+   git config --global user.email your.mail@address.org
+
+.. note:: The e-mail address should be the address you used to register with GitHub. If you want to use another one,
+          you need to add this address to your GitHub account. This makes sure that your contributions are correctly
+          associated with your account.
+
+.. note:: Your real name and your e-mail address you enter here will be visible to anyone that takes a closer look
+          at the contributions.
+
+
+7. Clone the repositories
 `````````````````````````
 
 Now you have everything you need to get started and you can clone our repositories. Basically, you open a command line
