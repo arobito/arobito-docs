@@ -39,8 +39,7 @@ Table of Contents
    :maxdepth: 2
    
    project/coding
-   api/modules
-   test/modules
+   source
    project/equipment
    license
    project/connect
