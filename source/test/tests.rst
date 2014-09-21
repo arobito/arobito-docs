@@ -11,7 +11,7 @@ tests.Documentation module
     :members:
     :undoc-members:
     :show-inheritance:
-	:private-members:
+    :private-members:
 
 
 Module contents
@@ -21,4 +21,4 @@ Module contents
     :members:
     :undoc-members:
     :show-inheritance:
-	:private-members:
+    :private-members:
