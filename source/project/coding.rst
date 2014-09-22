@@ -140,4 +140,4 @@ Documentation
 The project documentation is made with Sphinx using reStructuredText-Files. Additional papers are made with a
 to-be-created LaTeX class.
 
-The documentation can be found in the ``arobito/arobito-doc`` repository.
+The documentation can be found in the ``arobito/arobito-docs`` repository.
