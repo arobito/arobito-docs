@@ -36,7 +36,7 @@ For the Raspberry Pi backend driven by Arch Linux we prefer Python 3.4. It is th
 For the web frontend we're using XHTML5, JavaScript and CSS3. The backend is again driven by Python, powered by the
 famous `CherryPy web framework <http://www.cherrypy.org/>`_.
 
-The Arduino Code is written in C. We're programming the Atmel micro controller directly over the ICSP pinout to save the
+The Arduino code is written in C. We're programming the Atmel micro controller directly over the ICSP pinout to save the
 space for the boot loader.
 
 
@@ -140,4 +140,4 @@ Documentation
 The project documentation is made with Sphinx using reStructuredText-Files. Additional papers are made with a
 to-be-created LaTeX class.
 
-The documentation root path in the project folder is ``/doc``.
+The documentation can be found in the ``arobito/arobito-doc`` repository.

@@ -162,23 +162,34 @@ that, but you can't destroy anything if you do it twice.
           at the contributions.
 
 
-7. Clone the repositories
-`````````````````````````
+7. Fork the repositories
+````````````````````````
 
-Now you have everything you need to get started and you can clone our repositories. Basically, you open a command line
-at the directory you want to clone to and execute the following command:
+Now you have everything you need to get started and you can fork our repositories. Forking means, that you get an
+independent copy of one or all of our repositories. Just log in with GitHub, and navigate to our project page under
+`github.com/arobito <https://github.com/arobito>`_. Select the repository you want to fork and click the "fork"
+button in the upper right corner.
+
+Now you can clone your fork to your own machine:
 
 .. code:: bash
 
-   git clone git@github.com:arobito/arobito.git
+   git clone git@github.com:<username>/arobito.git
 
 For the documentation, use
 
 .. code:: bash
 
-   git clone git@github.com:arobito/arobito-docs.git
+   git clone git@github.com:<username>/arobito-docs.git
 
-So, that's it!
+Make sure you replaced ``<username>`` with your GitHub username!
+
+So, that's it! You are ready to go! We have some extra tips for you about working with your fork, refreshing it and
+making pull requests - just below the next step.
+
+.. note:: When you are a team member of the Arobito Project organization you *could* access our repositories
+          directly. There are several situations where this might be the right thing, but we strongly encourage you
+          to still work on your own fork and make pull requests.
 
 
 8. Setup signing key (optional)
@@ -209,6 +220,97 @@ information on tag signing.
 
 Work with the code
 ------------------
+
+
+We're not going to much into detail here. If you need more information,
+`visit the Pro Git e-book <http://git-scm.com/book/en/>`_.
+
+
+Basic Branching and Merging
+```````````````````````````
+
+
+Configure Upstream Repository
+.............................
+
+When you are about to develop a new feature or a patch, make sure your fork is up-to-date. To make your clone
+"updatable", you may need to add the Arobito repository as upstream repository. You need to do this only once
+on a clone. You can verify the upstream configuration with the command ``git remote -v``, executed in your clone's
+root path. If the upstream repository is still missing, the output looks like this:
+
+.. code:: text
+
+   origin  git@github.com:<username>/arobito.git (fetch)
+   origin  git@github.com:<username>/arobito.git (push)
+
+Add our repository as upstream repository:
+
+.. code:: bash
+
+   git remote add upstream https://github.com/arobito/arobito.git
+
+Use the HTTPS repository URL here to circumvent authentication issues when you are not a team member. Team members
+can use the ``git@github.com:arobito/arobito.git`` SSH connection with their key. To verify the upstream configuration
+you can execute the ``git remote -v`` command again. You should see something like that:
+
+.. code:: text
+
+   origin  git@github.com:<username>/arobito.git (fetch)
+   origin  git@github.com:<username>/arobito.git (push)
+   upstream        https://github.com/arobito/arobito.git (fetch)
+   upstream        https://github.com/arobito/arobito.git (push)
+
+To sync your clone with our repository, simply fetch and merge the upstream:
+
+.. code:: bash
+
+   git fetch upstream
+
+For each branch that you want to base your work on (in most cases, this would be ``master`` only), execute the following:
+
+.. code:: bash
+
+   git checkout master
+   git merge upstream/master
+
+Use ``git push --all`` now to sync your remote repository also.
+
+Most times, you would like to switch now to the ``master`` branch (just execute ``git checkout master``) and create your
+own feature branch and start working.
+
+.. note:: The GitHub help page `Managing Remotes <https://help.github.com/categories/18/articles>`_ has more detailed
+          information on that.
+
+
+Create a feature or patch branch
+................................
+
+If you are about to create a feature, create a new feature branch:
+
+.. code:: bash
+
+   git checkout -b features/<your_feature_name>
+
+Work, commit and push as much as you need. When your feature is done, proceed with a pull request.
+
+When you are about to develop a patch or a fix, create a patch branch:
+
+.. code:: bash
+
+   git checkout -b patches/<your_patch_name>
+
+When your patch refers to an issue from our issue tracker, name the patch accordingly, e. g. "Issue_213". Proceed with
+development, commit and push your changes.
+
+
+Create a pull request
+.....................
+
+When you're done with your work, you migt want to create a pull request. This notifies the project administrators of
+your work and allows them to review and merge your contribution.
+
+Creating pull requests with GitHub is very easy and straight-forward. The GitHub help pages contain a chapter about
+`creating pull requests <https://help.github.com/articles/creating-a-pull-request>`_.
 
 
 Submodules
