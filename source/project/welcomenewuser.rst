@@ -31,7 +31,7 @@ You need a GitHub.com account to commit to the project. If you already have one,
 that we know about your username.
 
 Open `github.com <https://github.com/>`_ and you will see the registration form right on the front page. Make sure you
-read the terms and agreements and sign up. Send us your new username, so we can add you to the list of collaborators for
+read the terms and conditions and sign up. Send us your new username, so we can add you to the list of collaborators for
 the repositories you're going to contribute to.
 
 
