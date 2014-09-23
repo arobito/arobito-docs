@@ -1,6 +1,13 @@
 tests package
 =============
 
+Subpackages
+-----------
+
+.. toctree::
+
+   tests.arobito
+
 Submodules
 ----------
 
