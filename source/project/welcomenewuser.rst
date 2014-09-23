@@ -313,6 +313,44 @@ Creating pull requests with GitHub is very easy and straight-forward. The GitHub
 `creating pull requests <https://help.github.com/articles/creating-a-pull-request>`_.
 
 
+Delete a branch
+...............
+
+When your pull request has been accepted, you might want to delete your branch. First, delete the branch locally:
+
+.. code:: bash
+
+   git checkout master
+   git branch -D patches/<your_patch_name>
+
+or
+
+.. code:: bash
+
+   git branch -D features/<your_feature_name>
+
+Now, delete the remote branch:
+
+.. code:: bash
+
+   git push origin :patches/<your_patch_name>
+
+or
+
+.. code:: bash
+
+   git push origin :features/<your_feature_name>
+
+To get the results of the pull request back to your clone, just update your clone as described above:
+
+.. code:: bash
+
+   git fetch upstream
+   git checkout master
+   git merge upstream/master
+   git push --all
+
+
 Submodules
 ``````````
 
