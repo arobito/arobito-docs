@@ -316,8 +316,7 @@ Creating pull requests with GitHub is very easy and straight-forward. The GitHub
 Delete a branch
 ...............
 
-When your pull request has been accepted, you might want to delete your branch. First, delete the branch locally.
-Switch to the master branch:
+When your pull request has been accepted, you might want to delete your branch. First, switch to the master branch:
 
 .. code:: bash
 
