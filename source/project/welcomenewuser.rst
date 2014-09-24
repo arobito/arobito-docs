@@ -306,7 +306,7 @@ development, commit and push your changes.
 Create a pull request
 .....................
 
-When you're done with your work, you migt want to create a pull request. This notifies the project administrators of
+When you're done with your work, you might want to create a pull request. This notifies the project administrators of
 your work and allows them to review and merge your contribution.
 
 Creating pull requests with GitHub is very easy and straight-forward. The GitHub help pages contain a chapter about
