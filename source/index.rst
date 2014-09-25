@@ -24,7 +24,8 @@ Project Arobito
 Welcome to the Project Arobito Documentation. This is your primary source of information for everything about the
 Arobito Project.
 
-- Project Website: `github.com/arobito <https://github.com/arobito>`_
+- Project Website: `arobito.github.io <https://arobito.github.io/>`_ (still empty)
+- Development Website: `github.com/arobito <https://github.com/arobito>`_
 - Travis CI Code: `travis-ci.org/arobito/arobito <https://travis-ci.org/arobito/arobito>`_
 - Travis CI Docs: `travis-ci.org/arobito/arobito-docs <https://travis-ci.org/arobito/arobito-docs>`_
 - Documentation: `arobito-docs.rtfd.org <https://arobito-docs.readthedocs.org/en/latest/>`_
