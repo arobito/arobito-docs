@@ -16,3 +16,14 @@ install:
 # command to run tests (docs)
 script:
   - sphinx-build -n -b html -d build/doctrees source build/html
+
+notifications:
+  email:
+    on_success: change
+    on_failure: always
+  irc:
+    on_success: always
+    on_failure: always
+    channels:
+      - "chat.freenode.net#arobito"
+

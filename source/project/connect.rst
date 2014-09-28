@@ -24,6 +24,7 @@ Development Contact
 - Issue Tracker: `github.com/arobito/arobito/issues <https://github.com/arobito/arobito/issues>`_
 - Issue Tracker for Documentation:
   `github.com/arobito/arobito-docs/issues <https://github.com/arobito/arobito-docs/issues>`_
+- IRC Channel `#arobito on chat.freenode.net <irc://chat.freenode.net#arobito>`_
 
 
 Social Networks

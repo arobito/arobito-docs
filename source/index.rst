@@ -30,6 +30,7 @@ Arobito Project.
 - Travis CI Docs: `travis-ci.org/arobito/arobito-docs <https://travis-ci.org/arobito/arobito-docs>`_
 - Documentation: `arobito-docs.rtfd.org <https://arobito-docs.readthedocs.org/en/latest/>`_
 - Twitter Account: `@arobito_project <https://twitter.com/arobito_project>`_
+- IRC Channel `#arobito on chat.freenode.net <irc://chat.freenode.net#arobito>`_
 
 
 Table of Contents
