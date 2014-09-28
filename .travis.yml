@@ -9,6 +9,7 @@ cache:
 # install dependencies
 install:
   - pip install -q -r code/src/requirements.txt --download-cache $HOME/.pip-cache
+  - pip install -q -r code/test/requirements.txt --download-cache $HOME/.pip-cache
   - pip install -q -r requirements.txt --download-cache $HOME/.pip-cache
 
 # command to run tests (docs)
