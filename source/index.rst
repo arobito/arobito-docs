@@ -39,7 +39,9 @@ Table of Contents
    :glob:
    :maxdepth: 2
    
+   project/repositories
    project/coding
+   mcu/index
    source
    project/equipment
    license
