@@ -49,9 +49,9 @@ The `arobito/arobito-docs <https://github.com/arobito/arobito-docs>`_ repository
 documentation. The page you are currently reading is from there. We use Sphinx with reStructured Text files for
 documenting virtually anything, not only the source code of the Python projects. Our documentation gets automatically
 built and published by the cool guys of `ReadTheDocs.org <https://www.readthedocs.org/>`_, so that you can find the most
-current version always at `arobito-docs.rtfd.org <https//arobito-docs.readthedocs.org/en/latest/>`_. At this time, we're
-doing all documentation in English, even if English is not our native language. We're sure that this lowers the barrier
-for other developers to join us.
+current version always at `arobito-docs.rtfd.org <https://arobito-docs.readthedocs.org/en/latest/>`_. At this time,
+we're doing all documentation in English, even if English is not our native language. We're sure that this lowers the
+barrier for other developers to join us.
 
 
 arobito/arobito.github.io
