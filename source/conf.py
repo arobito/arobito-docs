@@ -278,7 +278,7 @@ epub_publisher = 'The Arobito Project'
 epub_copyright = '2014, The Arobito Project'
 
 # The basename for the epub file. It defaults to the project name.
-#epub_basename = 'Arobito'
+epub_basename = 'Arobito'
 
 # The HTML theme for the epub output. Since the default themes are not optimized
 # for small screen space, using the same theme for HTML and epub output is
@@ -288,14 +288,14 @@ epub_copyright = '2014, The Arobito Project'
 
 # The language of the text. It defaults to the language option
 # or en if the language is not set.
-#epub_language = ''
+epub_language = 'en'
 
 # The scheme of the identifier. Typical schemes are ISBN or URL.
 #epub_scheme = ''
 
 # The unique identifier of the text. This can be a ISBN number
 # or the project homepage.
-#epub_identifier = ''
+epub_identifier = 'https://arobito.github.io/'
 
 # A unique identification for the text.
 #epub_uid = ''
@@ -318,10 +318,10 @@ epub_copyright = '2014, The Arobito Project'
 epub_exclude_files = ['search.html']
 
 # The depth of the table of contents in toc.ncx.
-#epub_tocdepth = 3
+epub_tocdepth = 6
 
 # Allow duplicate toc entries.
-#epub_tocdup = True
+epub_tocdup = True
 
 # Choose between 'default' and 'includehidden'.
 #epub_tocscope = 'default'
@@ -333,14 +333,14 @@ epub_exclude_files = ['search.html']
 #epub_max_image_width = 0
 
 # How to display URL addresses: 'footnote', 'no', or 'inline'.
-#epub_show_urls = 'inline'
+epub_show_urls = 'inline'
 
 # If false, no index is generated.
 #epub_use_index = True
 
 
 # Example configuration for intersphinx: refer to the Python standard library.
-intersphinx_mapping = {'python': ('http://docs.python.org/3.4', None)}
+intersphinx_mapping = {'python': ('https://docs.python.org/3.4', None)}
 
 # Show constructor details
 autoclass_content = 'both'
