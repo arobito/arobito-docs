@@ -2,8 +2,15 @@ language: python
 python:
   - "3.4"
 
-# command to install dependencies (docs)
-install: ./prepare-build.sh
+cache:
+  directories:
+    - $HOME/.pip-cache/
+
+# install dependencies
+install:
+  - pip install -q -r code/src/requirements.txt --download-cache $HOME/.pip-cache
+  - pip install -q -r code/test/requirements.txt --download-cache $HOME/.pip-cache
+  - pip install -q -r requirements.txt --download-cache $HOME/.pip-cache
 
 # command to run tests (docs)
 script: sphinx-build -n -b html -d build/doctrees source build/html
