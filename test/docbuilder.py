@@ -68,11 +68,12 @@ def main() -> int:
 
     rule = re.compile('^.*WARNING:\spy:class\sreference\starget\snot\sfound:\s(builtins\.'
                       '(type|object)|unittest\.case\.TestCase)$', re.DOTALL | re.UNICODE)
-    warnings = filter(lambda s: not rule.match(s.strip()) and len(s.strip()) > 0, split)
+
+    warnings = filter(lambda s: len(s.strip()) > 0 and not rule.match(s.strip()), split)
     warning_list = list()
     for w in warnings:
         warning_list.append(w.strip())
-        print('adding', w.strip())
+
     if len(warning_list) > 0:
         print('==========================', file=sys.stderr)
         print('Documentation Build failed', file=sys.stderr)
@@ -109,3 +110,4 @@ def main() -> int:
 
 if __name__ == '__main__':
     sys.exit(main())
+
