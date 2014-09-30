@@ -15,7 +15,7 @@ install:
 
 # command to run tests (docs)
 script:
-  - sphinx-build -n -b html -d build/doctrees source build/html
+  - (cd test && python docbuilder.py)
 
 notifications:
   email:
