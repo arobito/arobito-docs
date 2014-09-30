@@ -36,7 +36,15 @@ import sys
 import re
 
 
-def main():
+def main() -> int:
+    """
+    This method calls the Sphinx Builder on our documentation.
+
+    After the run, it filters the warnings and removes those that can be ignored because of a known Sphinx bug. This
+    allows us to let a build "fail" when there are other warnings.
+
+    :return: The exit code of the documentation creation process.
+    """
     with subprocess.Popen(['sphinx-build', '-n', '-b', 'html', '-d', '../build/doctrees', '../source', '../build/html'],
                           stdout=subprocess.PIPE, stderr=subprocess.PIPE) as build_proc:
         out_stdout, out_stderr = build_proc.communicate()
@@ -58,7 +66,7 @@ def main():
 
     split = out_stderr.decode().split('\n')
 
-    rule = re.compile('^.*WARNING:\spy:class\sreference\starget\snot\sfound:\s(builtins\.' +
+    rule = re.compile('^.*WARNING:\spy:class\sreference\starget\snot\sfound:\s(builtins\.'
                       '(type|object)|unittest\.case\.TestCase)$', re.DOTALL | re.UNICODE)
     warnings = filter(lambda s: not rule.match(s.strip()) and len(s.strip()) > 0, split)
     warning_list = list()
