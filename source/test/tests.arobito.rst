@@ -12,6 +12,13 @@ tests.arobito.Base module
     :undoc-members:
     :show-inheritance:
 
+tests.arobito.FsTools module
+----------------------------
+
+.. automodule:: tests.arobito.FsTools
+    :members:
+    :undoc-members:
+    :show-inheritance:
 
 Module contents
 ---------------
