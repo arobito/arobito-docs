@@ -4,6 +4,16 @@ arobito.controlinterface package
 Submodules
 ----------
 
+arobito.controlinterface.BackendManager module
+----------------------------------------------
+
+.. automodule:: arobito.controlinterface.BackendManager
+    :members:
+    :undoc-members:
+    :show-inheritance:
+    :private-members:
+
+
 arobito.controlinterface.ControlInterface module
 ------------------------------------------------
 
@@ -14,10 +24,20 @@ arobito.controlinterface.ControlInterface module
     :private-members:
 
 
-arobito.controlinterface.Controller module
-------------------------------------------
+arobito.controlinterface.ControllerBackend module
+-------------------------------------------------
 
-.. automodule:: arobito.controlinterface.Controller
+.. automodule:: arobito.controlinterface.ControllerBackend
+    :members:
+    :undoc-members:
+    :show-inheritance:
+    :private-members:
+
+
+arobito.controlinterface.ControllerFrontend module
+--------------------------------------------------
+
+.. automodule:: arobito.controlinterface.ControllerFrontend
     :members:
     :undoc-members:
     :show-inheritance:
