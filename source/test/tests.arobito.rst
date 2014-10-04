@@ -1,6 +1,13 @@
 tests.arobito package
 =====================
 
+Subpackages
+-----------
+
+.. toctree::
+
+   tests.arobito.controlinterface
+
 Submodules
 ----------
 
@@ -11,6 +18,7 @@ tests.arobito.Base module
     :members:
     :undoc-members:
     :show-inheritance:
+    :private-members:
 
 tests.arobito.FsTools module
 ----------------------------
@@ -19,6 +27,7 @@ tests.arobito.FsTools module
     :members:
     :undoc-members:
     :show-inheritance:
+    :private-members:
 
 Module contents
 ---------------
@@ -27,3 +36,4 @@ Module contents
     :members:
     :undoc-members:
     :show-inheritance:
+    :private-members:
