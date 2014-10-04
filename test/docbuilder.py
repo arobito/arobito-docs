@@ -66,10 +66,14 @@ def main() -> int:
 
     split = out_stderr.decode().split('\n')
 
-    rule = re.compile('^.*WARNING:\spy:class\sreference\starget\snot\sfound:\s(builtins\.'
-                      '(type|object)|unittest\.case\.TestCase)$', re.DOTALL | re.UNICODE)
+    rule_python = re.compile('^.*WARNING:\spy:class\sreference\starget\snot\sfound:\s(builtins\.'
+                             '(type|object)|unittest\.case\.TestCase)$', re.DOTALL | re.UNICODE)
+    rule_javascript = re.compile('^.*WARNING:\sjs:(func|class)\sreference\starget\snot\sfound:\s.*$')
 
-    warnings = filter(lambda s: len(s.strip()) > 0 and not rule.match(s.strip()), split)
+    warnings = filter(lambda s: len(s.strip()) > 0 and
+                                not rule_python.match(s.strip()) and
+                                not rule_javascript.match(s.strip()), split)
+
     warning_list = list()
     for w in warnings:
         warning_list.append(w.strip())

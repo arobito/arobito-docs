@@ -13,12 +13,16 @@
    limitations under the License.
 
 
-Arobito API Documentation
-=========================
+Arobito Webinterface JavaScript Documentation
+=============================================
+
+This part of our documentation is created manually. At this time, Sphinx does not have features that allow an
+automatic generation of JavaScript API documentation. All functions/methods/classes documented here can be found
+in the index also.
 
 .. toctree::
    :maxdepth: 6
+   :glob:
+   
+   robi-app
 
-   arobito
-   arobito.controlinterface
-   controlinterface
