@@ -23,5 +23,6 @@ documentation.
    :glob:
    
    api/modules
+   web-js/index
    test/modules
 
