@@ -23,4 +23,25 @@ the Arobito communication between the backend and the web frontend.
 Namespace
 ---------
 
-The code in the ``robi-app.js`` creates the namespace ``window.robi`` to make it's functions public.
+The code in the ``robi-app.js`` creates the namespace ``window.robi`` to make it's functions public. It also has the
+internal namespace ``local`` which is not available outside the module's code.
+
+
+Initialization
+--------------
+
+The module initialize itself on document load time. There is no additional loading necessary.
+
+
+API documentation
+-----------------
+
+
+Public Methods
+..............
+
+
+Private Methods
+...............
+
+
