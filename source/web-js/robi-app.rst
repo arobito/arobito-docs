@@ -40,6 +40,8 @@ API documentation
 Public Methods
 ..............
 
+The following methods allow an easy access to the growl implementation used.
+
 .. js:function:: robi.error(title, message)
 
    Create a error growl message (the little pop-up in the upper right window corner)
@@ -80,7 +82,33 @@ Public Methods
    :param string title: The title of the pop-up
    :param string message: The message to display
 
+The next methods are helper for opening specific pagelets.
+
+.. js:function:: robi.statusPage()
+
+   Open the StatusPage pagelet.
+
+The next methods are used for login, logout and session handling.
+
+.. js:function:: robi.login(form_element)
+
+   Initiate a login with credentials from the given form jQuery element.
    
+   :param FormElement form_element: The form element from which to take the user credentials
+   
+.. js:function:: robi.logout()
+
+   Initiate a logout.
+
+.. js:function:: robi.shutdown()
+
+   Send a shutdown request to the server. The user logged-in needs the permissions to initiate the shutdown.
+
+.. js:function:: robi.getSessionCount()
+
+   Query the server for the current count of logged-in sessions. The user needs the matching permissions to get an
+   useful answer.
+
    
 Private Methods
 ...............
