@@ -23,8 +23,8 @@ the Arobito communication between the backend and the web frontend.
 Namespace
 ---------
 
-The code in the ``robi-app.js`` creates the namespace ``window.robi`` to make it's functions public. It also has the
-internal namespace ``local`` which is not available outside the module's code.
+The code in the ``robi-app.js`` creates the namespace ``window.robi`` (or just ``robi`` for short) to make it's
+functions public. It also has the internal namespace ``local`` which is not available outside the module's code.
 
 
 Initialization
@@ -40,7 +40,48 @@ API documentation
 Public Methods
 ..............
 
+.. js:function:: robi.error(title, message)
 
+   Create a error growl message (the little pop-up in the upper right window corner)
+   
+   See also :js:func:`robi.warn <robi.warn>`, :js:func:`robi.notice <robi.notice>`, :js:func:`robi.message
+   <robi.message>`. 
+
+   :param string title: The title of the pop-up
+   :param string message: The message to display
+
+.. js:function:: robi.warn(title, message)
+
+   Create a warn growl message (the little pop-up in the upper right window corner)
+
+   See also :js:func:`robi.error <robi.error>`, :js:func:`robi.notice <robi.notice>`, :js:func:`robi.message
+   <robi.message>`.
+   
+   :param string title: The title of the pop-up
+   :param string message: The message to display
+
+.. js:function:: robi.notice(title, message)
+
+   Create a notice growl message (the little pop-up in the upper right window corner)
+
+   See also :js:func:`robi.error <robi.error>`, :js:func:`robi.warn <robi.warn>`, :js:func:`robi.message
+   <robi.message>`.
+
+   :param string title: The title of the pop-up
+   :param string message: The message to display
+   
+.. js:function:: robi.message(title, message)
+
+   Create a growl message (the little pop-up in the upper right window corner)
+
+   See also :js:func:`robi.error <robi.error>`, :js:func:`robi.warn <robi.warn>`, :js:func:`robi.notice
+   <robi.notice>`.
+
+   :param string title: The title of the pop-up
+   :param string message: The message to display
+
+   
+   
 Private Methods
 ...............
 
