@@ -17,8 +17,8 @@ Arobito Webinterface JavaScript Documentation
 =============================================
 
 This part of our documentation is created manually. At this time, Sphinx does not have features that allow an
-automatic generation of JavaScript API documentation. This is why JavaScript methods and classes are not part
-of the automatically generated modules index.
+automatic generation of JavaScript API documentation. All functions/methods/classes documented here can be found
+in the index also.
 
 .. toctree::
    :maxdepth: 6
