@@ -2,7 +2,8 @@ Arobito API Documentation
 =========================
 
 .. toctree::
-   :maxdepth: 4
+   :maxdepth: 6
 
    arobito
+   arobito.controlinterface
    controlinterface
