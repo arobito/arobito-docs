@@ -113,4 +113,53 @@ The next methods are used for login, logout and session handling.
 Private Methods
 ...............
 
+.. js:function:: local.loadPagelet(container, pagelet)
 
+   Load a pagelet into the given container (identified by a jQuery selector)
+   
+   :param container jQuerySelector: The container element to fill
+   :param string pagelet:
+       The pagelet to load - it must be an existing HTML file in the ``/src/web-static/pagelets`` folder.
+
+.. js:function:: local.login(data)
+
+   This method is used as the success callback for a user login.
+   
+   :param JSON data: The JSON data from the server
+
+.. js:function:: local.logout(data)
+
+   This method is used as the success callback for a user logout.
+   
+   :param JSON data: The JSON data from the server
+
+.. js:function:: local.shutdown(data)
+
+   This method is used as the success callback for a shutdown request.
+   
+   :param JSON data: The JSON data from the server
+
+.. js:function:: local.getSessionCount(data)
+
+   This method is used as the success callback for a getSessionCount request.
+   
+   :param JSON data: The JSON data from the server
+
+.. js:function:: local.shutdown(data)
+
+   This method is used as the success callback for a shutdown request.
+   
+   :param JSON data: The JSON data from the server
+
+.. js:function:: local.initLoginForm()
+
+   Initialize the login form for the web application. This method binds the submit handler and setups the jQuery UI
+   stuff for the form elements.
+
+.. js:function:: local.initMainToolbar()
+
+   Initialize the main toolbar, even if it's not visible right from the application startup.
+
+.. js:function:: local.init()
+
+   Initialize this JavaScript module: Set up AJAX parameters and the whole application.
