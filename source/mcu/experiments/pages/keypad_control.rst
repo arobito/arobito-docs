@@ -44,7 +44,25 @@ For the experiments, we put everything together on a breadboad.
 
 The power is delivered over the USB connection of the Arduino. The keypad does not need a dedicated power source.
 
+.. warning:: The hardware keypad in our experiment has a different pin-out assignment as in some data sheets around the
+             web. The Arduino program may not match the circuit.
 
-Programming the Arduino
------------------------
+.. code:: text
 
+   PIN | Assignment
+   ----+-----------
+     1 | Column 4
+     2 | Column 3
+     3 | Column 2
+     4 | Column 1
+     5 | Row 4
+     6 | Row 3
+     7 | Row 2
+     8 | Row 1
+
+
+What's next?
+------------
+
+Before we start programming, we need a strategy to debounce the inputs. This could be done with software in the MCU or
+hardware. We evaluate both possibilities.
